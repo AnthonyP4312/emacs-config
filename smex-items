@@ -1,0 +1,26 @@
+
+;; ----- smex-history -----
+(
+ dired
+ replace-regexp
+ revert-buffer
+ eldoc-mode
+ cider-mode
+ toggle-debug-on-error
+ describe-mode
+)
+
+;; ----- smex-data -----
+(
+ (dired . 4)
+ (set-face-foreground . 4)
+ (set-face-background . 2)
+ (cider-drink-a-sip . 6)
+ (toggle-debug-on-error . 5)
+ (eldoc-mode . 4)
+ (describe-mode . 1)
+ (cider-mode . 2)
+ (cider-repl-toggle-pretty-printing . 1)
+ (revert-buffer . 1)
+ (replace-regexp . 1)
+)

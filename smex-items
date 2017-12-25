@@ -1,26 +1,32 @@
 
 ;; ----- smex-history -----
 (
- dired
- replace-regexp
- revert-buffer
  eldoc-mode
- cider-mode
+ crux-rename-file-and-buffer
+ cider-refresh
+ cider-grimoire
+ revert-buffer
+ dired
  toggle-debug-on-error
- describe-mode
 )
 
 ;; ----- smex-data -----
 (
- (dired . 4)
+ (dired . 8)
  (set-face-foreground . 4)
  (set-face-background . 2)
  (cider-drink-a-sip . 6)
  (toggle-debug-on-error . 5)
- (eldoc-mode . 4)
+ (eldoc-mode . 8)
  (describe-mode . 1)
  (cider-mode . 2)
  (cider-repl-toggle-pretty-printing . 1)
- (revert-buffer . 1)
+ (revert-buffer . 3)
  (replace-regexp . 1)
+ (package-list-packages . 3)
+ (undo-tree-mode . 1)
+ (crux-rename-file-and-buffer . 2)
+ (cider-clear-buffer-local-connection . 1)
+ (cider-grimoire . 1)
+ (cider-refresh . 1)
 )

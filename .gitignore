@@ -25,3 +25,4 @@ tramp
 .emacs.desktop.lock
 network-security.data
 cider-history
+smex-items

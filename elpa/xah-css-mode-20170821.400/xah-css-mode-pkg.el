@@ -1,0 +1,1 @@
+(define-package "xah-css-mode" "20170821.400" "Major mode for editing CSS code." '((emacs "24.3")) :commit "7167c7a9a0f0dcc167dafa833efd43a0c9ae4307" :url "http://ergoemacs.org/emacs/xah-css-mode.html" :keywords '("languages" "convenience" "css" "color"))

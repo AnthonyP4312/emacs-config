@@ -9,6 +9,20 @@
 ;; Java classes (e.g. JavaClassName)
 (add-hook 'clojure-mode-hook 'subword-mode)
 
+;; Eldoc Mode for Clojure
+(add-hook 'clojure-mode-hook 'eldoc-mode)
+
+;; clojure flychecker
+(eval-after-load 'flycheck '(flycheck-clojure-setup))
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+(eval-after-load 'flycheck
+  ;'(setq flycheck-display-errors-function #'flycheck-pos-tip-error-messages)
+  '(flycheck-pos-tip-mode))
+
+;; (require 'flycheck-tip)
+;; (flycheck-tip-use-timer 'verbose)
+
 ;; A little more syntax highlighting
 
 ;; syntax hilighting for midje

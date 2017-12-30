@@ -1,32 +1,43 @@
 
 ;; ----- smex-history -----
 (
- eldoc-mode
- crux-rename-file-and-buffer
- cider-refresh
- cider-grimoire
- revert-buffer
  dired
- toggle-debug-on-error
+ clipboard-kill-ring-save
+ cider-connect
+ revert-buffer
+ cider-jack-in-clojurescript
+ package-list-packages
+ tide-mode
 )
 
 ;; ----- smex-data -----
 (
- (dired . 8)
+ (dired . 16)
  (set-face-foreground . 4)
  (set-face-background . 2)
  (cider-drink-a-sip . 6)
  (toggle-debug-on-error . 5)
- (eldoc-mode . 8)
+ (eldoc-mode . 12)
  (describe-mode . 1)
  (cider-mode . 2)
  (cider-repl-toggle-pretty-printing . 1)
- (revert-buffer . 3)
+ (revert-buffer . 4)
  (replace-regexp . 1)
- (package-list-packages . 3)
+ (package-list-packages . 7)
  (undo-tree-mode . 1)
  (crux-rename-file-and-buffer . 2)
  (cider-clear-buffer-local-connection . 1)
  (cider-grimoire . 1)
  (cider-refresh . 1)
+ (flycheck-info . 1)
+ (flycheck-mode . 5)
+ (customize-variable . 1)
+ (flycheck-buffer . 11)
+ (flycheck-pos-tip-mode . 7)
+ (pos-tip-w32-max-width-height . 1)
+ (tramp-bug . 1)
+ (tide-mode . 4)
+ (cider-jack-in-clojurescript . 2)
+ (cider-connect . 3)
+ (clipboard-kill-ring-save . 1)
 )

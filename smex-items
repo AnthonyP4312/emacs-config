@@ -1,43 +1,70 @@
 
 ;; ----- smex-history -----
 (
- dired
+ flycheck-pos-tip-mode
+ customize-variable
+ magit-push
+ magit-commit
  clipboard-kill-ring-save
- cider-connect
- revert-buffer
- cider-jack-in-clojurescript
- package-list-packages
- tide-mode
+ clipboard-yank
+ untabify
 )
 
 ;; ----- smex-data -----
 (
- (dired . 16)
- (set-face-foreground . 4)
+ (dired . 30)
+ (set-face-foreground . 7)
  (set-face-background . 2)
  (cider-drink-a-sip . 6)
  (toggle-debug-on-error . 5)
- (eldoc-mode . 12)
+ (eldoc-mode . 15)
  (describe-mode . 1)
  (cider-mode . 2)
  (cider-repl-toggle-pretty-printing . 1)
- (revert-buffer . 4)
+ (revert-buffer . 9)
  (replace-regexp . 1)
- (package-list-packages . 7)
- (undo-tree-mode . 1)
+ (package-list-packages . 11)
+ (undo-tree-mode . 2)
  (crux-rename-file-and-buffer . 2)
  (cider-clear-buffer-local-connection . 1)
  (cider-grimoire . 1)
  (cider-refresh . 1)
  (flycheck-info . 1)
  (flycheck-mode . 5)
- (customize-variable . 1)
+ (customize-variable . 6)
  (flycheck-buffer . 11)
- (flycheck-pos-tip-mode . 7)
+ (flycheck-pos-tip-mode . 11)
  (pos-tip-w32-max-width-height . 1)
  (tramp-bug . 1)
  (tide-mode . 4)
- (cider-jack-in-clojurescript . 2)
+ (cider-jack-in-clojurescript . 12)
  (cider-connect . 3)
- (clipboard-kill-ring-save . 1)
+ (clipboard-kill-ring-save . 6)
+ (js-mode . 1)
+ (sgml-mode . 3)
+ (sgml-pretty-print . 2)
+ (emmet-mode . 1)
+ (clipboard-yank . 19)
+ (cider-jack-in . 1)
+ (load-file . 1)
+ (xah-css-mode . 1)
+ (json-mode-beautify . 1)
+ (web-beautify-css . 6)
+ (lua-mode . 1)
+ (customize-themes . 2)
+ (linum-mode . 2)
+ (turn-on-haskell-doc . 1)
+ (turn-on-haskell-doc-mode . 1)
+ (haskell-doc-mode . 1)
+ (haskell-cabal-subsection-arrange-lines . 1)
+ (haskell-doc-show-type . 3)
+ (comment-box . 1)
+ (hindent-mode . 1)
+ (hindent-reformat-buffer . 3)
+ (haskell-navigate-imports . 2)
+ (haskell-describe . 1)
+ (hindent-reformat-region . 1)
+ (untabify . 1)
+ (magit-commit . 4)
+ (magit-push . 1)
 )

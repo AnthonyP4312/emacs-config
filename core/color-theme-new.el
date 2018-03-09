@@ -61,18 +61,18 @@
                    (aqua . "#99ffff")
                    (blue . "#bbdaff")
                    (purple . "#ebbbff")))
-    (night-bright . ((background . "#1d1f21")
+    (night-bright . ((background . "#000000")
                      (current-line . "#2a2a2a")
                      (selection . "#424242")
-                     (foreground . "#c5c8c6")
+                     (foreground . "#eaeaea")
                      (comment . "#969896")
-                     (red . "#c23f53")
-                     (orange . "#ba721c")
-                     (yellow . "#ff9c27")
-                     (green . "#a1c771")
-                     (aqua . "#48a5a8")
-                     (blue . "#3c84cf")
-                     (purple . "#dc68ea")))))
+                     (red . "#d54e53")
+                     (orange . "#e78c45")
+                     (yellow . "#e7c547")
+                     (green . "#b9ca4a")
+                     (aqua . "#70c0b1")
+                     (blue . "#7aa6da")
+                     (purple . "#c397d8")))))
 
 
 
@@ -188,7 +188,7 @@ names to which it refers are bound."
      (cursor ((,class (:background ,red))))
      (fringe ((,class (:background ,current-line))))
      ;;(linum ((,class (:background ,current-line))))
-     ;;(linum ((,class (:foreground ,current-line))))
+     (linum ((,class (:foreground ,current-line))))
      (hl-line ((,class (:background ,current-line))))
      (border ((,class (:background ,current-line))))
      (border-glyph ((,class (nil))))
@@ -569,7 +569,6 @@ are bound."
        ;; ansi-color - comint and other modes that handle terminal color escape sequences
        (setq ansi-color-names-vector (vector foreground red green yellow blue purple aqua background))
        (setq ansi-color-faces-vector [default bold shadow italic underline bold bold-italic bold])))))
-
 
 ;;;###autoload
 (when (boundp 'custom-theme-load-path)
